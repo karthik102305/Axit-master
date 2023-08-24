@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXIT</title>
+
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- \slider -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="./css/stylsheet.css" rel="stylesheet">
+    <link href="./css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="left_col">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="logo" title="logo">
+                    </a>
+                </div>
+
+                <div class="menu_icon" onclick="menuToggle()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+
+            <div class="right_col" id="headerMenu">
+                <ul class="menu">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!-- \header -->
+
+
+
+    <!-- banner -->
+    <section class="banner overlay">
+        <div class="container cols2">
+            <div class="left_col tCenterS">
+                <img src="./images/logo.png" alt="logo" title="logo">
+                <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et viverra justo commodo.
+                </p>
+
+                <a href="#" class="btn white">Download</a>
+
+            </div>
+
+            <div class="right_col noneS">
+                <h4>Try Your <span>FREE</span> Trial Today</h4>
+
+                <form>
+                    <div class="input_box">
+                        <div class="form_group">
+                            <input type="text" placeholder="Name" class="form_control">
+                        </div>
+
+                        <div class="form_group">
+                            <input type="email" placeholder="Email" class="form_control">
+                        </div>
+
+                        <div class="form_group">
+                            <input type="password" placeholder="Password" class="form_control">
+                        </div>
+
+                    </div>
+
+                    <div class="form_group">
+                        <input type="submit" value="Get Started" class="form_control btn orange">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \banner -->
+
+
+
+    <!-- social_media -->
+    <section class="social">
+        <div class="container">
+            <div class="left_col tCenterS">
+                <h5>Social Media</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                </p>
+            </div>
+
+            <ul class="right_col">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-wifi"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+
+        </div>
+    </section>
+    <!-- \social_media -->
+
+
+    <!-- effect -->
+    <section class="effect bgSec">
+        <div class="container">
+            <ul class="left_col">
+                <li class="effect_tab" onclick="onTabChange(0)">TAB1</li>
+                <li class="effect_tab" onclick="onTabChange(1)">TAB2</li>
+                <li class="effect_tab" onclick="onTabChange(2)">TAB3</li>
+            </ul>
+
+            <div class="right_col tCenterS">
+                <div class="effect_tab_content">
+                    <div class="effect_tab_content_in">
+                        <div class="content">
+                            <div class="heading">
+                                <h5>Tabs with soft transitioning effect</h5>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nisi sequi,
+                                exercitationem
+                                magni
+                                a, consequatur accusamus quisquam et voluptatem voluptas illum unde rerum assumenda
+                                atque
+                                accusantium incidunt eos labore in.
+                            </p> <br>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam ea
+                                exercitationem
+                                repudiandae tempora nemo laudantium alias quia molestiae culpa.
+                            </p>
+
+                            <a href="#" class="btn orange">Download</a>
+                        </div>
+
+                        <div class="pic">
+                            <img src="./images/effect_pic.png" alt="effect">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="effect_tab_content">
+                    <div class="effect_tab_content_in">
+                        <div class="content">
+                            <div class="heading">
+                                <h5>Tabs with soft transitioning effect 2</h5>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nisi sequi,
+                                exercitationem
+                                magni
+                                a, consequatur accusamus quisquam et voluptatem voluptas illum unde rerum assumenda
+                                atque
+                                accusantium incidunt eos labore in.
+                            </p> <br>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam ea
+                                exercitationem
+                                repudiandae tempora nemo laudantium alias quia molestiae culpa.
+                            </p>
+
+                            <a href="#" class="btn orange">Download</a>
+                        </div>
+
+                        <div class="pic">
+                            <img src="./images/effect_pic.png" alt="effect">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="effect_tab_content">
+                    <div class="effect_tab_content_in">
+                        <div class="content">
+                            <div class="heading">
+                                <h5>Tabs with soft transitioning effect 3</h5>
+                            </div>
+
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati nisi sequi,
+                                exercitationem
+                                magni
+                                a, consequatur accusamus quisquam et voluptatem voluptas illum unde rerum assumenda
+                                atque
+                                accusantium incidunt eos labore in.
+                            </p> <br>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam ea
+                                exercitationem
+                                repudiandae tempora nemo laudantium alias quia molestiae culpa.
+                            </p>
+
+                            <a href="#" class="btn orange">Download</a>
+                        </div>
+
+                        <div class="pic">
+                            <img src="./images/effect_pic.png" alt="effect">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \effect -->
+
+
+
+    <!-- list -->
+    <section class="list noBgSec">
+        <div class="container cols2">
+            <div class="left_col noneS">
+                <div class="pic">
+                    <img src="./images/list_left.png" alt="list_img">
+                </div>
+            </div>
+
+            <div class="right_col ">
+                <div class="heading">
+                    <h5>Sub list section</h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </p>
+
+                </div>
+
+                <div class="boxes">
+                    <div class="box">
+                        <div class="left_box">
+                            <div class="icon">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <h6>Upload</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean euismod bibendum laoreet.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <div class="left_box">
+                            <div class="icon">
+                                <i class="fa-solid fa-cloud-arrow-down"></i>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <h6>Download</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aenean euismod bibendum laoreet.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \list -->
+
+
+
+    <!-- picture -->
+    <section class="picture bgSec">
+        <div class="container cols2">
+            <div class="left_col tCenterS">
+                <div class="heading">
+                    <h5>Standard Picture Section</h5>
+                    <p></p>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                    et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet.
+                </p>
+
+            </div>
+
+            <div class="right_col noneS">
+                <div class="pic">
+                    <img src="./images/picture_right.png" alt="picture">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- \picture -->
+
+
+
+    <!-- awesome -->
+    <section class="awesome noBgSec">
+        <div class="container">
+            <div class="heading center">
+                <h1>WHY THIS IS AWESOME</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="cols cols3">
+                <div class="col">
+                    <i class="fa-regular fa-lightbulb"></i>
+                    <h5>Thoughtful Design</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-regular fa-keyboard"></i>
+                    <h5>Well Crafed</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-brands fa-angellist"></i>
+                    <h5>Easy to Customize</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Aenean euismod bibendum laoreet. Proin gravida
+                        dolor sit amet lacus accumsan et viverra.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \awesome -->
+
+
+
+    <!-- pricing -->
+    <section class="pricing bgSec">
+        <div class="container">
+            <div class="heading center">
+                <h1>PRICING OPTION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="cols cols3">
+                <div class="col">
+                    <div class="col_heading">
+                        <h5>Basic</h5>
+                    </div>
+
+                    <div class="price">
+                        <h1><span>$</span>0</h1>
+                        <h6>Free for life</h6>
+                    </div>
+
+                    <div class="details">
+                        <div class="info">
+                            <h6>OUR FREE PLAN</h6>
+                        </div>
+
+                        <ul>
+                            <li>1GB OF SPACE</li>
+                            <li>10GB OF BANDWIDTH</li>
+                            <li>3 WEBSITES</li>
+                            <li>BASIC CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>EMAIL SUPPORT</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_heading">
+                        <h5>Professional</h5>
+                    </div>
+
+                    <div class="price">
+                        <h1><span>$</span>19</h1>
+                        <h6>Monthly Payment</h6>
+                    </div>
+
+                    <div class="details">
+                        <div class="info">
+                            <h6>OUR MOST POPULAR</h6>
+                        </div>
+
+                        <ul>
+                            <li>5GB OF SPACE</li>
+                            <li>50GB OF BANDWIDTH</li>
+                            <li>12 WEBSITES</li>
+                            <li>ADVANCED CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>EMAIL SUPPORT</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_heading">
+                        <h5>ENTERPRISE</h5>
+                    </div>
+
+                    <div class="price">
+                        <h1><span>$</span>70</h1>
+                        <h6>Monthly Payment</h6>
+                    </div>
+
+                    <div class="details">
+                        <div class="info">
+                            <h6>OUR BIG PLAN</h6>
+                        </div>
+
+                        <ul>
+                            <li>UNLIMITED SPACE</li>
+                            <li>UNLIMITED BANDWIDTH</li>
+                            <li>100 WEBSITES</li>
+                            <li>ADVANCED CUSTOMIZATION</li>
+                            <li>WORDPRESS INTEGRATION</li>
+                            <li>24/7 SUPPORT</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \pricing -->
+
+
+
+    <!-- testimonial -->
+    <section class="testimonial noBgSec">
+        <div class="container">
+            <div class="heading center">
+                <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="cols owl-carousel owl-theme" id="testimonial_cols">
+                <div class="col">
+                    <div class="col_top">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </p>
+                    </div>
+
+                    <div class="col_bottom">
+                        <div class="pic">
+                            <img src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?t=st=1653496044~exp=1653496644~hmac=86f3b0e7d411d02d141635561d4b4ddac27b0fd5b0e57b7bb40189e95793d7f2&w=826"
+                                alt="people">
+                        </div>
+
+                        <div class="name">
+                            <h5>Karthik</h5>
+                            <span>Manager</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_top">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </p>
+                    </div>
+
+                    <div class="col_bottom">
+                        <div class="pic">
+                            <img src="https://img.freepik.com/free-photo/indian-man-smiling-cheerful-expression-closeup-portrait_53876-129387.jpg?t=st=1653496044~exp=1653496644~hmac=df0ae183a688f82b27b0c48c7ead8e0c3373d586fc06f3a6d87f06fd029c9ac0&w=826"
+                                alt="people">
+                        </div>
+
+                        <div class="name">
+                            <h5>Aathi</h5>
+                            <span>Team Lead</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_top">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </p>
+                    </div>
+
+                    <div class="col_bottom">
+                        <div class="pic">
+                            <img src="https://img.freepik.com/free-photo/stylish-handsome-indian-man-tshirt-pastel-wall_496169-1571.jpg?t=st=1653500717~exp=1653501317~hmac=4295fc147bd142274d9715a330ca0b1cc819f5dc35f2729dc4f86d3fc1da3730&w=826"
+                                alt="people">
+                        </div>
+
+                        <div class="name">
+                            <h5>Nizhar</h5>
+                            <span>CEO</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_top">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </p>
+                    </div>
+
+                    <div class="col_bottom">
+                        <div class="pic">
+                            <img src="https://img.freepik.com/free-photo/concept-people-with-young-man-pink-background_185193-82014.jpg?t=st=1653500717~exp=1653501317~hmac=2fdde793e88fd5b1b9cd1bf09ea3f821ae245b2ebe63d9766348f59fbfc821c5&w=826"
+                                alt="people">
+                        </div>
+
+                        <div class="name">
+                            <h5>Fayaz</h5>
+                            <span>Senior Engineer</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="col_top">
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </p>
+                    </div>
+
+                    <div class="col_bottom">
+                        <div class="pic">
+                            <img src="https://img.freepik.com/free-photo/cheerful-young-blue-eyed-man-with-dark-hair-posing-studio-with-happy-smile-handsome-fit-man-dressed-casually-smiling-joyfully-showing-his-white-straight-teeth-positive-emotions-concept_176420-13238.jpg?t=st=1653500717~exp=1653501317~hmac=28eecfd7c2d0c0abf6996e72d9ca4c47d3d057ed1e9708d202ed555f36e569c2&w=826"
+                                alt="people">
+                        </div>
+
+                        <div class="name">
+                            <h5>Tamil</h5>
+                            <span>Team Lead</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- \testimonial -->
+
+
+
+    <!-- axure -->
+    <section class="axure overlay">
+        <div class="container">
+            <div class="heading center">
+                <h1>STYLISH AXURE DESIGN</h1>
+                <p>
+                    Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
+                </p>
+            </div>
+
+            <a href="#" class="btn white">Download</a>
+
+        </div>
+    </section>
+    <!-- \axure -->
+
+
+
+    <!-- contact -->
+    <section class="contact noBgSec">
+        <div class="container">
+            <div class="heading center">
+                <h1>CONTACT US</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <form>
+                <div class="cols2">
+                    <div class="left_form">
+                        <div class="form_group">
+                            <input type="text" class="form_control" placeholder="Name">
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="email" class="form_control" placeholder="Email">
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="text" class="form_control" placeholder="Subject">
+                        </div>
+    
+                    </div>
+    
+                    <div class="right_form">
+                        <textarea placeholder="Message" class="form_control"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="btn_group">
+                    <input type="submit" value="Send Message" class="btn orange">
+                </div>
+
+            </form>
+
+
+        </div>
+    </section>
+    <!-- \contact -->
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <ul class="social_links">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-wifi"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+
+            <p>&#169; 2022 Karthik works</p>
+
+        </div>
+    </footer>
+    <!-- \footer -->
+
+
+
+
+
+
+
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="./js/jquery_script.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- \scripts -->
+</body>
+</html>
